@@ -1,0 +1,191 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 10px;
+    border-color: #333; ;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3px 10px;
+    width: 500px;
+    max-width: 400px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: 2px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px 12px;
+    outline: none;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+  
+  .search-button i {
+    color: #606060;
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  .mainimage{
+    width: 100%;
+    max-height: 100vh;
+  }
+  .image-container{
+    position: relative;
+  }
+  .text-overlay{
+    position: absolute;
+    top: 55px; /* Adjust the vertical position */
+    left: 10px; /* Adjust the horizontal position */
+    color: white; /* Adjust text color */
+   /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 215px 10px; /* Optional: padding around text */
+    border-radius: 5px; 
+  }
+  .text-overlay h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+  }
+  .about-us {
+    display: flex;
+    align-items: center;
+    margin: 40px 0; /* Add spacing above and below */
+  }
+  
+  .about-content {
+    display: flex;
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .about-image {
+    width: 50%; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+  .about-description {
+    width: 50%; 
+    padding: 20px; 
+  }
+  .author-card {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .author-card img {
+    width: 200px;
+    height: 250px;
+   
+    object-fit: cover;
+  }
+  .authorsectionstyle{
+    background-color: rgba(245, 245, 245, 0.96);
+  }
+  .authorsectionstyle h2{
+    text-align: center;
+    margin: 15px;
+  }
+  .authorcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .book-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .book-card img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .footer {
+    background-color: #282c34; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center text */
+  }
+  
+  .footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and info */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Max width for the footer */
+    margin: 0 auto; /* Center the footer */
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .footer-info {
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-info p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-links li {
+    display: inline; /* Display links inline */
+    margin: 0 10px; /* Space between links */
+  }
+  
+  .footer-links a {
+    color: white; 
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; 
+  }
